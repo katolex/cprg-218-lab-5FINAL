@@ -20,7 +20,7 @@ body, html {
   }
   
   .hero-banner {
-    background-image: url('/pics/img300.jpeg');
+    background-image: url('pics/img300.jpeg');
     height: 100vh;
     background-size: cover;
     display: flex;
