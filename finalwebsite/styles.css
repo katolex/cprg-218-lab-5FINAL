@@ -78,3 +78,23 @@ button:hover {
     font-size: 1em;
     color: #666;
 }
+
+.accordion-container {
+    background-color: darkcyan;
+    color: #fff;
+    height: fit-content;
+    text-align: center;
+  }
+  
+  .accordion-header {
+    padding: 10px;
+    margin: 0;
+    color: black;
+    background-color: aqua;
+    display: inline-block;
+  
+    & .gg-arrow-long-down {
+      display: inline-flex;
+      margin-left: 8px;
+    }
+  }
